@@ -1,12 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
-    Assembly-CSharp-Editor.dll:
-    - ReadmeEditor
     Assembly-CSharp.dll:
     - ContinuousMovement
     - HandPresence
     - LocomotionController
-    - Readme
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -46,7 +43,6 @@ ScriptsOnlyBuild:
     Unity.XR.Interaction.Toolkit.dll:
     - UnityEngine.XR.Interaction.Toolkit.LocomotionSystem
     - UnityEngine.XR.Interaction.Toolkit.SnapTurnProvider
-    - UnityEngine.XR.Interaction.Toolkit.TeleportationAnchor
     - UnityEngine.XR.Interaction.Toolkit.TeleportationArea
     - UnityEngine.XR.Interaction.Toolkit.TeleportationProvider
     - UnityEngine.XR.Interaction.Toolkit.XRController
@@ -96,7 +92,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/Scenes/Bowling Template.unity:
+    Assets/Scenes/Small.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -187,8 +183,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13086}
     - Class: 114
       Script: {instanceID: 13148}
-    - Class: 114
-      Script: {instanceID: 13224}
     - Class: 114
       Script: {instanceID: 13272}
     - Class: 114
@@ -1318,5 +1312,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 13
   scenePathNames:
-  - Assets/Scenes/Bowling Template.unity
-  playerPath: /Users/ethanholen/Desktop/xr-template/Builds/grabbing.apk
+  - Assets/Scenes/Small.unity
+  playerPath: /Users/ethanholen/Desktop/object-manipulation/Builds/Small.apk

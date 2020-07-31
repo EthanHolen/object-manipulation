@@ -8,9 +8,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Bowling Template.unity
     guid: 064a6ac3633be475f9f8acd41f852a84
+  - enabled: 1
+    path: Assets/Scenes/Small.unity
+    guid: fade44df045304dd0aaef0ca62255352
+  - enabled: 0
+    path: Assets/Scenes/Large.unity
+    guid: 9f8b4f96073444f3f934f732b958f543
+  - enabled: 0
+    path: Assets/Scenes/Medium.unity
+    guid: 56b51bae45fbc4088a07efd8fa6a23e0
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2bcd0c57514674568b0789b42421d5ae,
       type: 2}
