@@ -1,2 +1,2 @@
-# xr-template
-Template for XR projects on the oculus quest (MacOS).
+# object-manipulation
+Determining the best way to deal with grabbing multiple objects in unity
