@@ -9,9 +9,6 @@ public class ItemSpawner : MonoBehaviour
     public void Spawn()
     {
         GameObject spawnedBullet = Instantiate(item, spawnPoint.position, spawnPoint.rotation);
-    
-    
-    
     }
 
 }
