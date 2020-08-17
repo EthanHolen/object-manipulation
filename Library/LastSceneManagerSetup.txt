@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Object Grabbing (snap vs no-snap).unity
+- path: Assets/Scenes/Object Grabbing (ray interactor).unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
