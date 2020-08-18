@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - HandPresence
     - ItemSpawner
     - LocomotionController
+    - Readme
     - XROffsetGrabInteractable
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
@@ -95,7 +96,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/Scenes/Object Grabbing (ray interactor).unity:
+    Assets/Scenes/Object Grabbing (snap vs no-snap).unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -152,6 +153,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11350}
     - Class: 114
       Script: {instanceID: 11352}
+    - Class: 114
+      Script: {instanceID: 11396}
     - Class: 114
       Script: {instanceID: 11504}
     - Class: 114
@@ -1337,5 +1340,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 13
   scenePathNames:
-  - Assets/Scenes/Object Grabbing (ray interactor).unity
-  playerPath: /Users/ethanholen/Dropbox/Unity/object-manipulation/Builds/ray-interactor-build.apk
+  - Assets/Scenes/Object Grabbing (snap vs no-snap).unity
+  playerPath: /Users/ethanholen/Dropbox/Unity/object-manipulation/Builds/snap-vs-nosnap-build.apk
